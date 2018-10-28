@@ -30,7 +30,12 @@ Be sure to submit corresponding image files, i.e. figure1.png (or figure1.jpg) f
 ## Problem Description
 
 Briefly describe a problem that your team would like to solve.  
+
+- Create a data structure that will be used to help track inventory for an online PC parts store.
+
 Describe at a high level a program that could solve that problem.
+
+- An implementation of a hash table with AVL tree buckets will be used to store this information.
 
 ## Questions to answer for Exercise #2
 
@@ -74,7 +79,7 @@ Menu option chosen by the user, and then the item serial number.
 Example:
 
 
-Would you like to:
+Would you like to do:
 
 A - add an item to the inventory
 
@@ -85,6 +90,8 @@ D - delete an item from the inventory
 --if add has been chosen
 
 ########(serial number auto-generated)
+
+(all of these questions will be separate prompts)
 
 Item name?
 
@@ -98,7 +105,7 @@ Warehouse location?
 
 --if modify has been chosen
 
-What would you like to modify?
+What would you like to modify:
 
 N - change item name
 
@@ -119,17 +126,25 @@ Please enter the serial number of the item to delete.
 4. User Interface: Describe a user interface for your program.  Use text menus or a simple graphic user interface.
 We are using text menus.
 
-The first menu would have an add option, a modify option and a delete option.
-If motify option is chosen, the menu would have Price, current inventory and current location.
+- The first menu would have an add option, a modify option and a delete option.
+
+- If motify option is chosen, the menu would have name, description, price, current inventory and current location.
 
 5. Types List: Break your solution idea down into units that you think can be implemented with a single class.
-A hash table to store all the data.
-A node to represent each item.
-A AVL tree for bucket.
-We'll focus on a good hash function.
+
+- A hash table to store all the data.
+
+- A node to represent each item.
+
+- An AVL tree for bucket.
+
+- We'll focus on a good hash function.
 
 Name each interface or class and briefly describe its function or purpose.
-A AVL tree for bucket.
+
+- A hash table to hold key values
+
+- An AVL tree for bucket.
 
 ## Edit and Submit this file and any figures referenced by this document.
 
