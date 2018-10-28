@@ -12,8 +12,9 @@
        * GitHub username 3:NicolasM42       name 3:Nicolas
        * GitHub username 4:rtbell825       name 4:Ryan
        * GitHub username 5:       name 5:
-   Sunday the 28th  
-   * How long did it take your team to complete this exercise? 
+   
+ Sunday the 28th  
+ It took 2 hours sunday morning
 
 ## Table of Contents
 
