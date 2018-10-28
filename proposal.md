@@ -41,7 +41,7 @@ PC Part Store Inventory Tracker
 
 2. Output: Describe the output your program will produce.  Include and example format of the output produced.
 
-## Inventory Information
+Inventory Information
 
 - Price
 
