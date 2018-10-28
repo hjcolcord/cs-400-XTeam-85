@@ -1,4 +1,4 @@
-# xteam-exercise-2: https://github.com/hjcolcord/cs-400-XTeam-85
+# xteam-exercise-85: https://github.com/hjcolcord/cs-400-XTeam-85
 
 1. Edit the title of this document
    * Replace <UserName> with the user name of the team member who created shared repository
