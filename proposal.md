@@ -1,4 +1,4 @@
-# X-Team 85 Project Proposal
+# PC Part Store Inventory Proposal
 
 See https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code for tips on using *Markdown* tags to format __.md__ files
 
@@ -41,17 +41,17 @@ PC Part Store Inventory Tracker
 
 2. Output: Describe the output your program will produce.  Include and example format of the output produced.
 
--Inventory Information
+## Inventory Information
 
--Price
+- Price
 
--Current inventory
+- Current inventory
 
--Warehouse Location  
+- Warehouse Location  
 
--Item Description
+- Item Description
 
--Item Name
+- Item Name
 
 
 Example:
@@ -62,9 +62,9 @@ $1199.00
 
 Boost Clock: 1582 MHz
 
-Warehouse Location: Shelf-G, Bucket-42
-
 Current Inventory: 15 in stock
+
+Warehouse Location: Shelf-G, Bucket-42
 
 
 3. Input: Describe the data that is needed to solve your problem. Include an example format of the input data.
@@ -84,9 +84,11 @@ D - delete an item from the inventory
 
 --if add has been chosen
 
-########(serial number)
+########(serial number auto-generated)
 
 Item name?
+
+Item price?
 
 Item description?
 
@@ -94,13 +96,31 @@ Number in stock?
 
 Warehouse location?
 
-Item price?
+--if modify has been chosen
+
+What would you like to modify?
+
+N - change item name
+
+P - change item price
+
+D - change item description
+
+S - change the number currently in stock
+
+L - change the item's warehouse location
+
+--if delete has been chosen
+
+Please enter the serial number of the item to delete.
+
+
 
 4. User Interface: Describe a user interface for your program.  Use text menus or a simple graphic user interface.
 We are using text menus.
 
 The first menu would have an add option, a modify option and a delete option.
-If motify option is choosed, the menu would have Price, current inventory and current location.
+If motify option is chosen, the menu would have Price, current inventory and current location.
 
 5. Types List: Break your solution idea down into units that you think can be implemented with a single class.
 A hash table to store all the data.
