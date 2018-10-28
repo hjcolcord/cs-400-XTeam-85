@@ -35,27 +35,32 @@ Describe at a high level a program that could solve that problem.
 ## Questions to answer for Exercise #2
 
 1. Name: Give your project proposal a name (and edit the top line of this file)
-X-Team 85 Project Proposal
+Inventory tracker
 
 
 2. Output: Describe the output your program will produce.  Include and example format of the output produced.
-Stored information of inventories.
-
+Inventory information
+Price
+Current inventory
+Location
+item description
 
 3. Input: Describe the data that is needed to solve your problem. Include an example format of the input data.
-
-
+Serial number
 
 4. User Interface: Describe a user interface for your program.  Use text menus or a simple graphic user interface.
-
-
+We are using text menus.
+The first menu would have an add option, a modify option and a delete option.
+If motify option is choosed, the menu would have Price, current inventory and current location.
 
 5. Types List: Break your solution idea down into units that you think can be implemented with a single class.
-
-
+A hash table to store all the data.
+A node to represent each item.
+A AVL tree for bucket.
+We'll focus on a good hash function.
 
 Name each interface or class and briefly describe its function or purpose.
-
+A AVL tree for bucket.
 
 ## Edit and Submit this file and any figures referenced by this document.
 
