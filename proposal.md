@@ -35,21 +35,70 @@ Describe at a high level a program that could solve that problem.
 ## Questions to answer for Exercise #2
 
 1. Name: Give your project proposal a name (and edit the top line of this file)
-Inventory tracker
+
+PC Part Store Inventory Tracker
 
 
 2. Output: Describe the output your program will produce.  Include and example format of the output produced.
-Inventory information
-Price
-Current inventory
-Location
-item description
+
+-Inventory Information
+
+-Price
+
+-Current inventory
+
+-Warehouse Location  
+
+-Item Description
+
+-Item Name
+
+
+Example:
+
+Nvidia GTX 2080TI
+
+$1199.00
+
+Boost Clock: 1582 MHz
+
+Warehouse Location: Shelf-G, Bucket-42
+
+Current Inventory: 15 in stock
+
 
 3. Input: Describe the data that is needed to solve your problem. Include an example format of the input data.
-Serial number
+
+Menu option chosen by the user, and then the item serial number.
+
+Example:
+
+
+Would you like to:
+
+A - add an item to the inventory
+
+M - modify a current item's information
+
+D - delete an item from the inventory
+
+--if add has been chosen
+
+########(serial number)
+
+Item name?
+
+Item description?
+
+Number in stock?
+
+Warehouse location?
+
+Item price?
 
 4. User Interface: Describe a user interface for your program.  Use text menus or a simple graphic user interface.
 We are using text menus.
+
 The first menu would have an add option, a modify option and a delete option.
 If motify option is choosed, the menu would have Price, current inventory and current location.
 
